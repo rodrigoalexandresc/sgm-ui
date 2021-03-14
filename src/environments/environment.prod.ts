@@ -1,5 +1,5 @@
 export const environment = {
   production: true,
-  apicidadao: 'http://localhost:5001',
+  apicidadao: 'https://sgm-modcidadao-xzuqv66rna-uc.a.run.app',
   apigeo: 'http://localhost:5002'  
 };
