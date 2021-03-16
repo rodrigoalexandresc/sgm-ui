@@ -4,8 +4,8 @@
 
 export const environment = {
   production: false,
-  apicidadao: 'https://localhost:5001',
-  apigeo: 'https://localhost:5002'
+  apicidadao: 'http://localhost:5001',
+  apigeo: 'http://localhost:5002'
 };
 
 /*
