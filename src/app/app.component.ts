@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'sgm-ui';
 
+  showFiller: boolean = false;
+
   pesquisar() {
     
   }
