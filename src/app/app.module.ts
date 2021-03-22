@@ -25,6 +25,7 @@ import {MatIconModule} from '@angular/material/icon';
 import { GeoMapaComponent } from './geo-mapa/geo-mapa.component';
 import {MatTreeModule} from '@angular/material/tree';
 import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
 import { from } from 'rxjs';
 
 registerLocaleData(localePt, 'pt-BR');
@@ -54,6 +55,7 @@ registerLocaleData(localePt, 'pt-BR');
     MatIconModule,
     MatTreeModule,
     MatSidenavModule,
+    MatSnackBarModule,
     NgbModule
   ],
   providers: 

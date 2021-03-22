@@ -33,7 +33,7 @@
     </mat-card-content>
     <mat-card-subtitle>Resultados da pesquisa</mat-card-subtitle>    
     <mat-card-content>
-        <table mat-table [dataSource]="iptus$ | async">
+        <table mat-table [dataSource]="iptus">
             <ng-container matColumnDef="DataVencimento">
                 <mat-header-cell *matHeaderCellDef> Vencimento </mat-header-cell>
                 <mat-cell *matCellDef="let data"> {{data.DataVencimento | date: 'dd/MM/yyyy'}} </mat-cell>
